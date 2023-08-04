@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-title {
+  color: white;
+}
+
+.App-time {
+  color: white;
+  letter-spacing: 10px;
+}
+
+.App-lap {
+  height: 310px;
+  padding: 0;
+  overflow-y: scroll;
+  color: white;
+}
+
+.App-lap::-webkit-scrollbar {
+  color: #282c34;
+}
+
+.App-lap-table {
+  margin: 0 auto;
+}
+
+.App-lap-table thead {
+  text-decoration: underline;
+}
+
+.App-lap-table th,
+.App-lap-table td {
+  width: 100px;
+  height: 30px;
+}
+
+.App-button {
+  width: 150px;
+  padding: 5px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: white;
+}
+
+.App-button-lap,
+.App-button-reset {
+  background-color: grey;
+}
+
+.App-button-stop {
+  background-color: red;
+}
+
+.App-button-start {
+  background-color: #00ae95;
+}
